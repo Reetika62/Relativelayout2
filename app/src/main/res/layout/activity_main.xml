@@ -76,12 +76,13 @@
 
 
     <TextView
+        android:id="@+id/tv_DCA"
         android:layout_width="123dp"
         android:layout_height="126dp"
         android:layout_below="@+id/space_station"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="176dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="58dp"
         android:gravity="center"
         android:hint="DCA"
         android:textSize="25sp"
@@ -92,32 +93,34 @@
         android:layout_height="110dp"
         android:layout_below="@+id/Rovers"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="225dp"
-        android:layout_marginTop="176dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="42dp"
         android:gravity="center"
         android:hint="MARS"
         android:textSize="25sp"
         android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/way"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/ic_cp"
+        android:layout_width="158dp"
+        android:layout_height="74dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="44dp"
-        android:layout_marginTop="270dp"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/ic_cp" />
 
-        android:layoutbelow="@+id/et_Flights"
-        android:text="way" />
-
-    <Button
-        android:id="@+id/one_way"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <Switch
+        android:id="@+id/sv_one_way"
+        android:layout_width="237dp"
+        android:layout_height="46dp"
+        android:layout_below="@+id/tv_DCA"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="257dp"
-        android:layout_marginTop="250dp"
-        android:text="one way" />
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="71dp"
+        android:text="one way"
+        android:textSize="25dp"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>
